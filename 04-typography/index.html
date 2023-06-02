@@ -4,27 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+
+            theme: {
+              fontFamily: {
+                'sans': ['ui-sans-serif', 'system-ui',],
+                'serif': ['Pacifico', 'Georgia',],
+                'mono': ['ui-monospace', 'SFMono-Regular',],
+              
+              },
+            },
+          }
+
+    </script>
     <title>Typography</title>
+
   </head>
   <body>
     <!-- Font Family -->
-
+    <div class="font-sans">Hail For Tailwind!!</div>
+    <div class="font-serif">Hail For Tailwind!! And GOOGLE Fonts</div>
+    <div class="font-semibold">Hail For Tailwind!!</div>
     <!-- Font Size -->
-
+    <div class="text-xs">DOTA is Cool Name</div>
+    <div class="text-sm">DOTA is Cool Name</div>
+    <div class="text-base">DOTA is Cool Name</div>
+    <div class="text-lg">DOTA is Cool Name</div>
+    <div class="text-xl">DOTA is Cool Name</div>
+    <div class="text-2xl">DOTA is Cool Name</div>
+    <div class="text-4xl">DOTA is Cool Name</div>
+    
     <!-- Font Weight -->
+    <div class="font-light">DOTA is Awsome Name</div>
+        <div class="font-normal">DOTA is Awsome Name</div>
+            <div class="font-medium">DOTA is Awsome Name</div>
+                <div class="font-bold">DOTA is Awsome Name</div>
+                  <div class="font-extrabold">DOTA is Awsome Name</div>
 
     <!-- Letter Spacing -->
-
+    <div class="font-extrabold tracking-tight">DOTEX is Awsome Name</div>
+    <div class="font-extrabold tracking-normal">DOTEX is Awsome Name</div>
+    <div class="font-extrabold tracking-wide">DOTEX is Awsome Name</div>
+    <div class="font-extrabold tracking-wider">DOTEX is Awsome Name</div>
+    <div class="font-extrabold tracking-widest">DOTEX is Awsome Name</div>
     <!-- Text Alignment -->
-
+    <div class="text-left">Hail For Tailwind!!</div>
+    <div class="text-center">Hail For Tailwind!!</div>
+    <div class="text-right">Hail For Tailwind!!</div>
     <!-- Text Decoration -->
-
+    <div class="text-center underline decoration-double decoration-indigo-600 ">Helew</div>
+    <div class="underline text-center decoration-wavy decoration-indigo-600">Helew</div>
+    <div class="underline text-center decoration-dotted decoration-indigo-600">Helew</div>
+    <div class="underline text-center decoration-dashed decoration-indigo-600">Helew</div>
     <!-- Decoration Style -->
 
     <!-- Decoration Offset -->
-
+    <div class="underline text-center decoration-wavy decoration-indigo-600 underline-offset-2">Helew</div>
+    <div class="underline text-center decoration-dashed decoration-indigo-600">Helew</div>
     <!-- Text Transform -->
+    <p class="normal-case">GG WEll Played</p>
+    <p class="uppercase">GG WEll Played</p>
+    <p class="lowercase">GG WEll Played</p>
+    <p class="capitalize">GG WEll Played</p>
+    
+    
   </body>
 </html>
 
